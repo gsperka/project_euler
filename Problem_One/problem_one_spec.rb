@@ -12,18 +12,17 @@ end
 
 describe Integer do
 
-	describe '#multiple_of_three?' do
-		it 'returns true if the value called is a multiple of 3' do
-			number = 10
-			expect(number.multiple_of_three?).to eql(false)
-		end
-	end
+  describe '#multiple_of_three?' do
+    it 'returns true if the value called is a multiple of 3' do
+      number = 10
+      expect(number.multiple_of_three?).to eql(false)
+    end
+  end
 
-	describe '#multiple_of_five?' do
-		it 'returns true if the value called is a multiple of 5' do
-			number = 7
-			expect(number.multiple_of_five?).to eql(false)
-		end
-	end
-
+  describe '#multiple_of_five?' do
+    it 'returns true if the value called is a multiple of 5' do
+      number = 7
+      expect(number.multiple_of_five?).to eql(false)
+    end
+  end
 end
