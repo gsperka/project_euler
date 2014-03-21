@@ -5,23 +5,23 @@
 
 class ProblemOne
 
-	def self.multiple_sum(value)
-		sum = 0
-		(1...value).each {|number| sum += number if number.multiple_of_three? || number.multiple_of_five?}
-		sum
-	end
+  def self.multiple_sum(value)
+    sum = 0
+    (1...value).each {|number| sum += number if number.multiple_of_three? || number.multiple_of_five?}
+    sum
+  end
 
 end
 
 class Integer 
 
-	def multiple_of_three?
-		self % 3 == 0
-	end
+  def multiple_of_three?
+    self % 3 == 0
+  end
 
-	def multiple_of_five?
-		self % 5 == 0
-	end
+  def multiple_of_five?
+    self % 5 == 0
+  end
 
 end
 
