@@ -18,17 +18,17 @@ class ProblemThree
     true
   end
 
-  def all_prime_factors(prime)
+  def all_prime_factors(prime_num = [])
     product = 1
-    int = 2
+    integer = 2
     while product < @num
-      if @num % int == 0 && is_prime?(int)
-        prime << int
-        product *= int
+      if @num % integer == 0 && is_prime?(integer)
+        prime_num << integer
+        product *= integer
       end
-      int += 1
+      integer += 1
     end
-    prime
+    prime_num
   end
 
   def last_prime_factor
@@ -38,4 +38,4 @@ class ProblemThree
 
 end
 
-puts ProblemThree.solution(600851475143)
+puts ProblemThree.solution(600851475143) # => 6857
