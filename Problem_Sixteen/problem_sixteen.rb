@@ -21,7 +21,7 @@ class ProblemSixteen
 
 end
 
-p ProblemSixteen.solution(2, 1000) # => 
+p ProblemSixteen.solution(2, 1000) # => 1366
 
 
 
