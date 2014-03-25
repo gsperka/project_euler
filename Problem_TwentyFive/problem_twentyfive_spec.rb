@@ -7,7 +7,7 @@ describe ProblemTwentyFive do
 
   describe '#fib_up_to_digit_max' do
     it 'returns the Fibonacci number once the loop requirements are met' do
-      expect(example.fib_up_to_digit_max).to eql(476)
+      expect(example.fib_up_to_digit_max).to eql(4782)
     end
   end
 end
