@@ -24,6 +24,4 @@ class ProblemTwenty
   end
 end
 
-question = ProblemTwenty.new
-
 p ProblemTwenty.solution(100) # => 648
