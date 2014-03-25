@@ -33,7 +33,7 @@ class ProblemTwentyFive
     final_fib = 1
     fib_one, fib_two = 0, 1
       
-      while fib_two.to_s.length < 100
+      while fib_two.to_s.length < 1000
         fib_one, fib_two = fib_two, fib_one + fib_two
         final_fib += 1
       end
